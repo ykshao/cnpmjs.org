@@ -63,9 +63,10 @@ var config = {
   // default system admins
   admins: {
     // name: email
-    fengmk2: 'fengmk2@gmail.com',
-    admin: 'admin@cnpmjs.org',
-    dead_horse: 'dead_horse@qq.com',
+    // fengmk2: 'fengmk2@gmail.com',
+    // admin: 'admin@cnpmjs.org',
+    // dead_horse: 'dead_horse@qq.com',
+    shaoyongkai: 'shaoyongkai@koolearn-inc.com',
   },
 
   // email notification for errors
@@ -80,8 +81,7 @@ var config = {
       pass: 'your password'
     }
   },
-
-  logoURL: 'https://os.alipayobjects.com/rmsportal/oygxuIUkkrRccUz.jpg', // cnpm logo image url
+  logoURL: '//images.koolearn.com/shark/project/zt/2017/1205koolearn-home-gf/i/banner-header/logo.png?bd11fa', // cnpm logo image url
   adBanner: '',
   customReadmeFile: '', // you can use your custom readme file instead the cnpm one
   customFooter: '', // you can add copyright and site total script html here
@@ -100,7 +100,7 @@ var config = {
   database: {
     db: 'cnpmjs_test',
     username: 'root',
-    password: '',
+    password: 'cnpmlivemysql',
 
     // the sql dialect of the database
     // - currently supported: 'mysql', 'sqlite', 'postgres', 'mariadb'
@@ -147,7 +147,7 @@ var config = {
   enablePrivate: false,
 
   // registry scopes, if don't set, means do not support scopes
-  scopes: [ '@cnpm', '@cnpmtest', '@cnpm-test' ],
+  scopes: [ '@cnpm', '@cnpmtest', '@cnpm-test', '@koolearn', '@koolearn-cnpmtest', '@koolearn-cnpm-test' ],
 
   // some registry already have some private packages in global scope
   // but we want to treat them as scoped private packages,

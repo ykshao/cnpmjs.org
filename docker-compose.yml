@@ -18,7 +18,8 @@ services:
     restart: always
     environment :
       MYSQL_USER: root      
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"      
+      # MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_ROOT_PASSWORD: "cnpmlivemysql"    
       MYSQL_DATABASE: cnpmjs_test
       MYSQL_ROOT_HOST: "%"
     volumes:
